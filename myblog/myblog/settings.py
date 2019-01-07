@@ -23,7 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jl&jssfhe@@l^x^a2l$@pl!4oc1-wrjm==j*36rwe5rjvc14@e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.hnxkr.cn']
+
 
 ALLOWED_HOSTS = []
 
