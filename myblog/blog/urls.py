@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   File Name：     urls
-   Description :
-   Author :       me
-   date：          2018/12/27
--------------------------------------------------
-   Change Activity:
-                   2018/12/27:
--------------------------------------------------
-"""
+
 __author__ = 'me'
 
 
@@ -32,6 +22,7 @@ urlpatterns = [
     url ( r'^archives/(?P<year>[0-9]{4})/(?P<month>[0-9]{1,2})/$', views.ArchivesView.as_view(), name='archives' ),
     url(r'^category/(?P<pk>[0-9]+)/$', views.CategoryView.as_view(), name='category'),
     url ( r'^tag/(?P<pk>[0-9]+)/$', views.TagView.as_view (), name='tag' ),
+    url ( r'^search/$', views.search, name='search' ),
 ]
 
 
