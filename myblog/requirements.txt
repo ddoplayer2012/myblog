@@ -11,7 +11,7 @@ lxml==4.2.5
 macholib==1.11
 Markdown==3.0.1
 pefile==2018.8.8
-Pygments==2.3.1
+Pygments==2.7.4
 PyInstaller==3.4
 pypiwin32==219
 pyreadline==2.1
